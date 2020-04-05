@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="test.js"></script>
+    <!-- <link rel="stylesheet" href="css/common.css"> -->
+    <style>
+        body{
+            background-color: pink;
+        }
+        section.m-header-info{
+            width: 1200px;
+            height: 400px;
+            position: relative;
+            margin: 0 auto;
+            overflow: hidden;
+            filter:drop-shadow(0 -2px 2px rgba(0,0,0,0.7));
+        }
+        section.m-header-info::before{
+            content: "";
+            box-sizing: content-box;
+            position: absolute;
+            margin-left: 530px;
+            margin-top: -100px;
+            border-radius: 50%;
+            width: 140px;
+            height: 140px;
+            border: 2px dotted rgba(0, 0, 0, 0.2);
+            box-shadow: 0 -2px 0 1000px rgba(255, 255, 255, 0.2);
+        }
+        section.m-header-info::after{
+            content: "";
+            position: absolute;
+            margin-left: -510px;
+            margin-top: -1110px;
+            border-radius: 50%;
+            width: 140px;
+            height: 140px;
+            border: 11px solid rgba(255, 255, 255, 0.2);
+        }
+    /* .square, .square > div { box-sizing: border-box; }
+.square { 
+    width: 300px; 
+    position: fixed; 
+    top: calc(50vh - 200px);
+    left: calc(50vw - 150px);
+    overflow: hidden;
+}
+.square > .s-top { 
+    border: 1px solid #fff;
+    height: 170px;
+    border-radius: 5px 5px 0 0;
+    border-width: 1px 1px 0 1px; 
+}
+.square > .s-middle { 
+    border-left: 1px solid #fff; 
+    height: 60px;
+}
+.square > .s-bottom { 
+    border: 1px solid #fff;
+    height: 170px;
+    border-radius: 0 0 5px 5px;
+    border-width: 0px 1px 1px 1px; 
+}
+.square > .s-half-circle { 
+    border: 1px solid #fff;
+    position: absolute;
+    width: 30px;
+    height: 60px;
+    border-width: 1px 0px 1px 1px;
+    border-radius: 30px 0 0 30px;
+    top: calc(50% - 30px);
+    right: 0;
+}
+.square > .s-background {
+    border: 360px solid rgba(255,255,255,0.3);
+    position: absolute;
+    width: 780px;
+    height: 780px;
+    border-radius: 50%;
+    top: calc(50% - 390px);
+    right: -390px;
+}
+.circle { 
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% + 125px);
+    background-color: rgba(255,255,255,.3);
+    box-sizing: border-box;
+} */
+    </style>
+</head>
+<body>
+    <section class="m-header-info"></section>
+
+
+    <!-- <div class="square">
+        <div class="s-top"></div>
+        <div class="s-middle"></div>
+        <div class="s-bottom"></div>
+        <div class="s-half-circle"></div>
+        <div class="s-background"></div>
+    </div>
+    <div class="circle"></div> -->
+</body>
+</html>
